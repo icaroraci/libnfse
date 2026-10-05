@@ -10,5 +10,7 @@ As mudanças relevantes de cada versão ficam registradas aqui. O formato segue 
 - Dependência da libnfe 1.x pelo `pkg-config`, e da libxml2, OpenSSL e zlib.
 - Versão da biblioteca em `<libnfse/versao.h>` (`NFSE_VERSAO`) e em tempo de execução (`nfse_versao()`).
 - Roteiro em `docs/ROTEIRO.md`.
+- Schemas oficiais da NFS-e 1.01 (pacote de 09/02/2026) em `tests/schemas/nfse`, sem alteração, conferidos pelo CI.
+- `tools/documento.json` e, gerados dele pelos geradores da libnfe, as tabelas do motor de grupos (prestador, tomador, intermediário, serviço, valores, IBS/CBS, substituição e eventos de cancelamento), os padrões do leiaute, os diagramas e o `TODO.md`.
 
 [Não lançado]: https://github.com/icaroraci/libnfse/commits/main
