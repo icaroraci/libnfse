@@ -1,0 +1,12 @@
+prefix=@PREFIX@
+libdir=@LIBDIR@
+includedir=@INCLUDEDIR@
+
+Name: libnfse
+Description: Biblioteca C para emissão de NFS-e do padrão nacional
+URL: https://github.com/icaroraci/libnfse
+Version: @VERSAO@
+Requires: libnfe >= 1.0
+Requires.private: libxml-2.0 libcrypto zlib
+Cflags: -I${includedir}
+Libs: -L${libdir} -lnfse
