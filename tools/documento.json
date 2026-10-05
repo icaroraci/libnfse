@@ -1,0 +1,42 @@
+{
+  "documento": "NFS-e",
+  "versao": "1.01",
+  "artigo": "da",
+  "biblioteca": "libnfse",
+  "schemas": "tests/schemas/nfse",
+  "tipos": [
+    "tiposSimples_v1.01.xsd",
+    "tiposEventos_v1.01.xsd"
+  ],
+  "leiaute": "tiposComplexos_v1.01.xsd",
+  "raiz": {
+    "elemento": "DPS",
+    "tipo": "TCDPS"
+  },
+  "repositorio": "icaroraci/libnfse",
+  "ramo": "main",
+  "padroes": {
+    "saida": "src/libnfse/padroes.h",
+    "prefixo": "NFSE_"
+  },
+  "esquemas": {
+    "saida": "src/libnfse/esquemas.c",
+    "cabecalho": "src/libnfse/esquemas.h",
+    "prefixo": "nfse_esq_",
+    "raizes": [
+      "subst",
+      "prest",
+      "toma",
+      "interm",
+      "serv",
+      "valores",
+      "IBSCBS",
+      "e101101",
+      "e105102"
+    ]
+  },
+  "diagramas": {
+    "saida": "docs/diagramas",
+    "todo": "TODO.md"
+  }
+}

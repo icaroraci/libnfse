@@ -1,0 +1,75 @@
+# Diagramas das estruturas da NFS-e (leiaute 1.01)
+
+Gerados automaticamente a partir do schema oficial (`tests/schemas/nfse/tiposComplexos_v1.01.xsd`) por `tools/gerar_diagramas.py`. **Não edite os SVGs**: atualize o schema e rode `python3 "$(pkg-config --variable=ferramentas libnfe)/gerar_diagramas.py" --config tools/documento.json`.
+
+Em cada diagrama: caixa tracejada = opcional; `0..1`, `1..∞` = ocorrências; **seq.** = os filhos aparecem nessa ordem; **escolha** = apenas um dos filhos; caixas amarelas (⊞) são estruturas com diagrama próprio, listadas abaixo.
+
+- [DPS](DPS.svg)
+  - [infDPS](DPS/infDPS.svg)
+    - [subst](DPS/infDPS/subst.svg) `0..1` — Dados da NFS-e a ser substituída
+    - [prest](DPS/infDPS/prest.svg) — Grupo de informações do DPS relativas ao Prestador de Serviços
+      - [end](DPS/infDPS/prest/end.svg) `0..1` — Dados de endereço do prestador
+        - [endNac](DPS/infDPS/prest/end/endNac.svg) — Grupo de informações específicas de endereço nacional
+        - [endExt](DPS/infDPS/prest/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+      - [regTrib](DPS/infDPS/prest/regTrib.svg) — Grupo de informações relativas aos regimes de tributação do prestador de serviços
+    - [toma](DPS/infDPS/toma.svg) `0..1` — Grupo de informações do DPS relativas ao Tomador de Serviços
+      - [end](DPS/infDPS/toma/end.svg) `0..1` — Dados de endereço
+        - [endNac](DPS/infDPS/toma/end/endNac.svg) — Grupo de informações específicas de endereço nacional
+        - [endExt](DPS/infDPS/toma/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+    - [interm](DPS/infDPS/interm.svg) `0..1` — Grupo de informações do DPS relativas ao Intermediário de Serviços
+      - [end](DPS/infDPS/interm/end.svg) `0..1` — Dados de endereço
+        - [endNac](DPS/infDPS/interm/end/endNac.svg) — Grupo de informações específicas de endereço nacional
+        - [endExt](DPS/infDPS/interm/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+    - [serv](DPS/infDPS/serv.svg) — Grupo de informações do DPS relativas ao Serviço Prestado
+      - [locPrest](DPS/infDPS/serv/locPrest.svg) — Grupo de informações relativas ao local da prestação do serviço
+      - [cServ](DPS/infDPS/serv/cServ.svg) — Grupo de informações relativas ao código do serviço prestado
+      - [comExt](DPS/infDPS/serv/comExt.svg) `0..1` — Grupo de informações relativas à exportação/importação de serviço prestado
+      - [obra](DPS/infDPS/serv/obra.svg) `0..1` — Grupo de informações do DPS relativas à serviço de obra
+        - [end](DPS/infDPS/serv/obra/end.svg) — Grupo de informações do endereço da obra do serviço prestado
+          - [endExt](DPS/infDPS/serv/obra/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+      - [atvEvento](DPS/infDPS/serv/atvEvento.svg) `0..1` — Grupo de informações do DPS relativas à Evento
+        - [end](DPS/infDPS/serv/atvEvento/end.svg) — Grupo de informações relativas ao endereço da atividade, evento ou local do serviço prestado
+          - [endExt](DPS/infDPS/serv/atvEvento/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+      - [infoCompl](DPS/infDPS/serv/infoCompl.svg) `0..1` — Grupo de informações complementares disponível para todos os serviços prestados
+        - [gItemPed](DPS/infDPS/serv/infoCompl/gItemPed.svg) `0..1` — Grupo de itens do pedido/ordem de compra/ordem de serviço/projeto
+    - [valores](DPS/infDPS/valores.svg) — Grupo de informações relativas à valores do serviço prestado
+      - [vServPrest](DPS/infDPS/valores/vServPrest.svg) — Grupo de informações relativas aos valores do serviço prestado
+      - [vDescCondIncond](DPS/infDPS/valores/vDescCondIncond.svg) `0..1` — Grupo de informações relativas aos descontos condicionados e incondicionados
+      - [vDedRed](DPS/infDPS/valores/vDedRed.svg) `0..1` — Grupo de informações relativas ao valores para dedução/redução do valor da base de cálculo (valor do servi…
+        - [documentos](DPS/infDPS/valores/vDedRed/documentos.svg) — Grupo de informações de documento utilizado para Dedução/Redução do valor do serviço
+          - [docDedRed](DPS/infDPS/valores/vDedRed/documentos/docDedRed.svg) `1..1000` — Grupo de informações de documento utilizado para Dedução/Redução do valor do serviço
+            - [NFSeMun](DPS/infDPS/valores/vDedRed/documentos/docDedRed/NFSeMun.svg) — Grupo de informações de Outras NFS-e (Padrão anterior de NFS-e)
+            - [NFNFS](DPS/infDPS/valores/vDedRed/documentos/docDedRed/NFNFS.svg) — Grupo de informações de NF ou NFS (Modelo não eletrônico)
+            - [fornec](DPS/infDPS/valores/vDedRed/documentos/docDedRed/fornec.svg) `0..1` — Grupo de informações do Fornecedor em Deduções de Serviços
+              - [end](DPS/infDPS/valores/vDedRed/documentos/docDedRed/fornec/end.svg) `0..1` — Dados de endereço
+                - [endNac](DPS/infDPS/valores/vDedRed/documentos/docDedRed/fornec/end/endNac.svg) — Grupo de informações específicas de endereço nacional
+                - [endExt](DPS/infDPS/valores/vDedRed/documentos/docDedRed/fornec/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+      - [trib](DPS/infDPS/valores/trib.svg) — Grupo de informações relacionados aos tributos relacionados ao serviço prestado
+        - [tribMun](DPS/infDPS/valores/trib/tribMun.svg) — Grupo de informações relacionados ao Imposto Sobre Serviços de Qualquer Natureza - ISSQN
+          - [exigSusp](DPS/infDPS/valores/trib/tribMun/exigSusp.svg) `0..1` — Informações para a suspensão da Exigibilidade do ISSQN
+          - [BM](DPS/infDPS/valores/trib/tribMun/BM.svg) `0..1` — Tributação do ISSQN sobre o serviço prestado: 1 - Operação tributável; 2 - Exportação de serviço; 3 - Não …
+        - [tribFed](DPS/infDPS/valores/trib/tribFed.svg) `0..1` — Grupo de informações de outros tributos relacionados ao serviço prestado
+          - [piscofins](DPS/infDPS/valores/trib/tribFed/piscofins.svg) `0..1` — Grupo de informações dos tributos PIS/COFINS
+        - [totTrib](DPS/infDPS/valores/trib/totTrib.svg) — Grupo de informações para totais aproximados dos tributos relacionados ao serviço prestado
+          - [vTotTrib](DPS/infDPS/valores/trib/totTrib/vTotTrib.svg) — Valor monetário total aproximado dos tributos, em conformidade com o artigo 1o da Lei no 12.741/2012
+          - [pTotTrib](DPS/infDPS/valores/trib/totTrib/pTotTrib.svg) — Valor percentual total aproximado dos tributos, em conformidade com o artigo 1o da Lei no 12.741/2012
+    - [IBSCBS](DPS/infDPS/IBSCBS.svg) `0..1` — Grupo de informações declaradas pelo emitente referentes ao IBS e à CBS
+      - [gRefNFSe](DPS/infDPS/IBSCBS/gRefNFSe.svg) `0..1` — Grupo de NFS-e referenciadas
+      - [dest](DPS/infDPS/IBSCBS/dest.svg) `0..1` — Grupo de informações relativas ao Destinatário
+        - [end](DPS/infDPS/IBSCBS/dest/end.svg) `0..1` — Grupo de informações do endereço do Destinatário do serviço
+          - [endNac](DPS/infDPS/IBSCBS/dest/end/endNac.svg) — Grupo de informações específicas de endereço nacional
+          - [endExt](DPS/infDPS/IBSCBS/dest/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+      - [imovel](DPS/infDPS/IBSCBS/imovel.svg) `0..1` — Grupo de informações de operações relacionadas a bens imóveis, exceto obras
+        - [end](DPS/infDPS/IBSCBS/imovel/end.svg) — Grupo de informações do endereço da obra do serviço prestado
+          - [endExt](DPS/infDPS/IBSCBS/imovel/end/endExt.svg) — Grupo de informações específicas de endereço no exterior
+      - [valores](DPS/infDPS/IBSCBS/valores.svg) — Grupo de informações relativas aos valores do serviço prestado para IBS e CBS
+        - [gReeRepRes](DPS/infDPS/IBSCBS/valores/gReeRepRes.svg) `0..1` — Grupo de informações relativas a valores incluídos neste documento e recebidos por motivo de estarem relac…
+          - [documentos](DPS/infDPS/IBSCBS/valores/gReeRepRes/documentos.svg) `1..1000` — Grupo relativo aos documentos referenciados nos casos de reembolso, repasse e ressarcimento que serão cons…
+            - [dFeNacional](DPS/infDPS/IBSCBS/valores/gReeRepRes/documentos/dFeNacional.svg) — Grupo de informações de documentos fiscais eletrônicos que se encontram no repositório nacional
+            - [docFiscalOutro](DPS/infDPS/IBSCBS/valores/gReeRepRes/documentos/docFiscalOutro.svg) — Grupo de informações de documento fiscais, eletrônicos ou não, que não se encontram no repositório nacional
+            - [docOutro](DPS/infDPS/IBSCBS/valores/gReeRepRes/documentos/docOutro.svg) — Grupo de informações de documento não fiscal.
+            - [fornec](DPS/infDPS/IBSCBS/valores/gReeRepRes/documentos/fornec.svg) `0..1` — Grupo de informações do fornecedor do documento referenciado
+        - [trib](DPS/infDPS/IBSCBS/valores/trib.svg) — Grupo de informações relacionados aos tributos IBS e CBS
+          - [gIBSCBS](DPS/infDPS/IBSCBS/valores/trib/gIBSCBS.svg) — Grupo de informações relacionadas ao IBS e à CBS
+            - [gTribRegular](DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gTribRegular.svg) `0..1` — Grupo de informações da Tributação Regular
+            - [gDif](DPS/infDPS/IBSCBS/valores/trib/gIBSCBS/gDif.svg) `0..1` — Grupo de informações relacionadas ao diferimento para IBS e CBS

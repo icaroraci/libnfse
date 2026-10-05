@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns='http://www.w3.org/2000/svg' width='814' height='1045' viewBox='0 0 814 1045'>
+<rect width='100%' height='100%' fill='#ffffff'/>
+<text x='20' y='26' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='15' font-weight='bold' fill='#1a1a1a'>DPS › infDPS › IBSCBS › valores › gReeRepRes › documentos</text><text x='20' y='42' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>Gerado de tiposComplexos_v1.01.xsd por tools/gerar_diagramas.py — caixa tracejada: opcional; ⊞: estrutura com diagrama próprio</text>
+<a href='documentos/dFeNacional.svg'>
+<rect x='464' y='52' width='330' height='77' rx='3' fill='#fff2cc' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='464' y='52' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='472' y='68' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>dFeNacional ⊞</text>
+<text x='472' y='86' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>estrutura</text>
+<text x='538' y='86' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TCRTCListaDocDFe — ver diagrama próprio</title>TCRTCListaDocDFe — ver diagrama próprio</text>
+<text x='472' y='105' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Grupo de informações de documentos fiscais</text>
+<text x='472' y='118' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>eletrônicos que se encontram no repositório nacional</text>
+</a>
+<a href='documentos/docFiscalOutro.svg'>
+<rect x='464' y='143' width='330' height='90' rx='3' fill='#fff2cc' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='464' y='143' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='472' y='159' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>docFiscalOutro ⊞</text>
+<text x='472' y='177' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>estrutura</text>
+<text x='538' y='177' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TCRTCListaDocFiscalOutro — ver diagrama próprio</title>TCRTCListaDocFiscalOutro — ver diagrama p…</text>
+<text x='472' y='196' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Grupo de informações de documento fiscais,</text>
+<text x='472' y='209' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>eletrônicos ou não, que não se encontram no</text>
+<text x='472' y='222' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>repositório nacional</text>
+</a>
+<a href='documentos/docOutro.svg'>
+<rect x='464' y='247' width='330' height='64' rx='3' fill='#fff2cc' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='464' y='247' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='472' y='263' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>docOutro ⊞</text>
+<text x='472' y='281' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>estrutura</text>
+<text x='538' y='281' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TCRTCListaDocOutro — ver diagrama próprio</title>TCRTCListaDocOutro — ver diagrama próprio</text>
+<text x='472' y='300' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Grupo de informações de documento não fiscal.</text>
+</a>
+<rect x='374' y='147.5' width='56' height='26' rx='13' fill='#f3f6f9' stroke='#7a8a99'/>
+<text x='402.0' y='164.5' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' text-anchor='middle' fill='#1a1a1a'>escolha</text>
+<path d='M430,160.5 H447.0 V63 H464' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M430,160.5 H447.0 V154 H464' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M430,160.5 H447.0 V258 H464' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<a href='documentos/fornec.svg'>
+<rect x='374' y='325' width='330' height='77' rx='3' fill='#fff2cc' stroke='#1f4e79' stroke-width='1.3' stroke-dasharray='5,3'/>
+<rect x='374' y='325' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3' stroke-dasharray='5,3'/>
+<text x='382' y='341' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>fornec ⊞</text>
+<text x='696' y='341' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' text-anchor='end' fill='#1f4e79'>0..1</text>
+<text x='382' y='359' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>estrutura</text>
+<text x='448' y='359' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TCRTCListaDocFornec — ver diagrama próprio</title>TCRTCListaDocFornec — ver diagrama próprio</text>
+<text x='382' y='378' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Grupo de informações do fornecedor do documento</text>
+<text x='382' y='391' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>referenciado</text>
+</a>
+
+<rect x='374' y='416' width='330' height='92' rx='3' fill='#ffffff' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='374' y='416' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='382' y='432' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>dtEmiDoc</text>
+<text x='382' y='450' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>tipo</text>
+<text x='448' y='450' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TSData</title>TSData</text>
+<text x='382' y='465' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>padrão</text>
+<text x='448' y='465' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))</title>(((20(([02468][048])|([13579][26]))-02-29…</text>
+<text x='382' y='484' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Data da emissão do documento dedutível Ano, mês e</text>
+<text x='382' y='497' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>dia (AAAA-MM-DD)</text>
+
+
+<rect x='374' y='522' width='330' height='92' rx='3' fill='#ffffff' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='374' y='522' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='382' y='538' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>dtCompDoc</text>
+<text x='382' y='556' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>tipo</text>
+<text x='448' y='556' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TSData</title>TSData</text>
+<text x='382' y='571' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>padrão</text>
+<text x='448' y='571' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>(((20(([02468][048])|([13579][26]))-02-29))|(20[0-9][0-9])-((((0[1-9])|(1[0-2]))-((0[1-9])|(1\d)|(2[0-8])))|((((0[13578])|(1[02]))-31)|(((0[1,3-9])|(1[0-2]))-(29|30)))))</title>(((20(([02468][048])|([13579][26]))-02-29…</text>
+<text x='382' y='590' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Data da competência do documento dedutível Ano, mês</text>
+<text x='382' y='603' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>e dia (AAAA-MM-DD)</text>
+
+
+<rect x='374' y='628' width='330' height='118' rx='3' fill='#ffffff' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='374' y='628' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='382' y='644' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>tpReeRepRes</text>
+<text x='382' y='662' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>tipo</text>
+<text x='448' y='662' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TSRTCTpReeRepRes</title>TSRTCTpReeRepRes</text>
+<text x='382' y='677' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>valores</text>
+<text x='448' y='677' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>01, 02, 03, 04, 99</title>01, 02, 03, 04, 99</text>
+<text x='382' y='696' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Tipo de valor incluído neste documento, recebido por</text>
+<text x='382' y='709' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>motivo de estarem relacionadas a operações de</text>
+<text x='382' y='722' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>terceiros, objeto de reembolso, repasse ou</text>
+<text x='382' y='735' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>ressarcimento pelo recebedor, já tributados e aqui …</text>
+
+
+<rect x='374' y='760' width='330' height='133' rx='3' fill='#ffffff' stroke='#1f4e79' stroke-width='1.3' stroke-dasharray='5,3'/>
+<rect x='374' y='760' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3' stroke-dasharray='5,3'/>
+<text x='382' y='776' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>xTpReeRepRes</text>
+<text x='696' y='776' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' text-anchor='end' fill='#1f4e79'>0..1</text>
+<text x='382' y='794' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>tipo</text>
+<text x='448' y='794' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TSDesc150</title>TSDesc150</text>
+<text x='382' y='809' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>tamanho</text>
+<text x='448' y='809' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>1 a 150</title>1 a 150</text>
+<text x='382' y='824' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>padrão</text>
+<text x='448' y='824' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>[!-ÿ]{1}[ -ÿ]{0,}[!-ÿ]{1}|[!-ÿ]{1}</title>[!-ÿ]{1}[ -ÿ]{0,}[!-ÿ]{1}|[!-ÿ]{1}</text>
+<text x='382' y='843' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Descrição do reembolso ou ressarcimento quando a</text>
+<text x='382' y='856' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>opção é &quot;99 – Outros reembolsos ou ressarcimentos</text>
+<text x='382' y='869' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>recebidos por valores pagos relativos a operações</text>
+<text x='382' y='882' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>por conta e ordem de terceiro&quot;</text>
+
+
+<rect x='374' y='907' width='330' height='118' rx='3' fill='#ffffff' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='374' y='907' width='330' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='382' y='923' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>vlrReeRepRes</text>
+<text x='382' y='941' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>tipo</text>
+<text x='448' y='941' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>TSDec15V2</title>TSDec15V2</text>
+<text x='382' y='956' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#5f6b76'>padrão</text>
+<text x='448' y='956' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' fill='#1a1a1a'><title>0|0\.[0-9]{2}|[1-9]{1}[0-9]{0,14}(\.[0-9]{2})?</title>0|0\.[0-9]{2}|[1-9]{1}[0-9]{0,14}(\.[0-9]…</text>
+<text x='382' y='975' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Valor monetário (total ou parcial, conforme</text>
+<text x='382' y='988' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>documento informado) utilizado para não inclusão na</text>
+<text x='382' y='1001' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>base de cálculo do ISS e do IBS e da CBS da NFS-e</text>
+<text x='382' y='1014' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>que está sendo emitida (R$)</text>
+
+<rect x='284' y='526.25' width='56' height='26' rx='13' fill='#f3f6f9' stroke='#7a8a99'/>
+<text x='312.0' y='543.25' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' text-anchor='middle' fill='#1a1a1a'>seq.</text>
+<path d='M340,539.25 H357.0 V160.5 H374' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M340,539.25 H357.0 V336 H374' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M340,539.25 H357.0 V427 H374' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M340,539.25 H357.0 V533 H374' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M340,539.25 H357.0 V639 H374' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M340,539.25 H357.0 V771 H374' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+<path d='M340,539.25 H357.0 V918 H374' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+
+<rect x='20' y='528.25' width='230' height='88' rx='3' fill='#ffffff' stroke='#1f4e79' stroke-width='1.3'/>
+<rect x='20' y='528.25' width='230' height='22' rx='3' fill='#dce9f5' stroke='#1f4e79' stroke-width='1.3'/>
+<text x='28' y='544.25' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='13' font-weight='bold' fill='#1a1a1a'>documentos</text>
+<text x='242' y='544.25' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='11' text-anchor='end' fill='#1f4e79'>1..1000</text>
+<text x='28' y='566.25' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>Grupo relativo aos documentos</text>
+<text x='28' y='579.25' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>referenciados nos casos de</text>
+<text x='28' y='592.25' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>reembolso, repasse e ressarcimento</text>
+<text x='28' y='605.25' font-family='Segoe UI, Helvetica, Arial, sans-serif' font-size='10.5' font-style='italic' fill='#5f6b76'>que serão considerados na base de …</text>
+
+<path d='M250,539.25 H267.0 V539.25 H284' fill='none' stroke='#7a8a99' stroke-width='1.2'/>
+</svg>

@@ -18,15 +18,16 @@ A NFS-e do padrão nacional não segue o padrão SEFAZ dos outros documentos: o 
 1. **Chamada HTTPS genérica** (método, caminho, `Content-Type`, corpo; status HTTP e corpo da resposta) sobre a mesma conexão com certificado cliente de `nfe_sefaz`.
 2. **gzip e base64** no núcleo (hoje a libmdf tem a sua cópia).
 3. **Leitura de JSON** mínima para o retorno da API.
-4. **Assinatura RSA-SHA256**, se a Sefin exigir.
+4. **Assinatura RSA-SHA256**, se a Sefin exigir (os manuais não dizem o algoritmo; conferir na produção restrita).
+5. **Padrão com `^` e `$`** no XSD da série da DPS, que a libxml2 lê como caracteres comuns (icaroraci/tooldoce#291).
 
 ## O que falta, na libnfse
 
-1. **Schemas** v1.01 sem alteração em `tests/schemas/` e o mapa do leiaute gerado por `tools/documento.json`.
+1. ~~**Schemas** v1.01 sem alteração em `tests/schemas/` e o mapa do leiaute gerado por `tools/documento.json`.~~ Feito: ver [`tests/schemas/README.md`](../tests/schemas/README.md) e [`TODO.md`](../TODO.md).
 2. **DPS mínima**: prestador, tomador, serviço (`cTribNac`, local da prestação), valores e tributação municipal; Id da DPS (45 caracteres); validação e assinatura.
 3. **Emissão** (`POST /nfse`) contra um servidor REST falso no CI, leitura da NFS-e e da chave de acesso de 50 posições.
 4. **Consulta** pela chave e pela DPS.
-5. **Eventos**: cancelamento (101101) e cancelamento por substituição (105102).
+5. **Eventos**: cancelamento (101101). O cancelamento por substituição (105102) não é pedido como evento: a DPS substituta vai pelo `POST /nfse` com `subst/chSubstda`, e a Sefin gera o evento.
 6. **Homologação** na produção restrita, registrada em `docs/HOMOLOGACAO.md` (só chaves, números e códigos de retorno).
 7. Grupo `IBSCBS` e demais grupos pelo motor de grupos; parâmetros municipais; distribuição pelo ADN; manifestação das partes.
 
